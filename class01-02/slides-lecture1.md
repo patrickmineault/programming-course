@@ -1,5 +1,6 @@
 % Lecture 1
-% Programming class
+% Programming for VR I
+% Patrick Mineault
 
 # First steps
 
