@@ -1,4 +1,4 @@
-% Lecture 1
+% Lecture 1 - Python
 % Programming for VR I
 % Patrick Mineault
 

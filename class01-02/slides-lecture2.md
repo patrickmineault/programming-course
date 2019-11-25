@@ -1,4 +1,4 @@
-% Lecture 2
+% Lecture 2 - Git & Github
 % Programming for VR I
 % Patrick Mineault
 
@@ -111,10 +111,12 @@ $ git commit -m "Life is fun"
 # Context about how programmers use git and github
 
 - Programmers often like to work on different features at the same time - each branch can be its own feature. We're just going to work on the master branch, which is the default one.
+
 ```
 $ git branch
 * master
 ```
+
 - You can fork other people's code and then merge it back.
 - `git` has a lot of tools for managing multiple versions of the same code simultaneously. We'll go with a very linear workflow, but you can use a very nonlinear method (think of the plot of Back to the Future 2)
 - By having a complete record of what happened, when something goes very wrong, you can figure out what went wrong and why.
