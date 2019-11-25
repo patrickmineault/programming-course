@@ -18,7 +18,7 @@
 # Github as a lurker
 
 - An almost magical cornucopia of things you can download
-- Which things are "good to download"? What out for:
+- Which things are "good to download"? Watch out for:
     - License
     - Language
     - Stars and forks
@@ -38,9 +38,9 @@
 # Create a repo and put stuff in it
 
 - Create a repo, add stuff to it, and share it with the world.
-- Let's create a repo on Github called hello-world-python (live demo)
+- Let's create a repo on Github called `hello-world-python`
 - Clone the repo
-- Create a new file in the directory: helloworld.py
+- Create a new file in the directory: `helloworld.py`
 - Write our hello world example in there
 - Commit it and push it
 
@@ -64,10 +64,12 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 # Key commands
 
-- `git add myfile.whatever`: Add a file to be committed. You need to add uncommitted files (new files and modified) before you can commit them.
+- `git add myfile.ext`: Add a file to be committed. You need to add uncommitted files (new files and modified) before you can commit them.
 
 `git add helloworld.py`
-```$ git status
+
+```
+$ git status
 On branch master
 
 Initial commit
