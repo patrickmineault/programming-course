@@ -27,4 +27,4 @@ Feel free to re-use and remix slides and materials from this class.
 
 To recompile slides, use pandoc, e.g.:
 
-`pandoc -t beamer -s slides-lecture1.txt -o slides-lecture1.pdf`
+`pandoc --filter pandoc-latex-fontsize -t beamer -s slides-lecture1.md -o slides-lecture1.pdf`
