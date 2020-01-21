@@ -151,9 +151,13 @@ for obj in objects:
 # Let's use a simple class I made
 
 * Sprite sheet animation
-* [Sprite shee]
+* https://github.com/patrickmineault/programming-course/blob/master/class13-14/sprite_sheet.py
 * For now let's copy paste at the top of our main file.
 
 # Read the docs
 
 * Let's read the docs for this class and create a sprite sheet animation.
+
+# Stretch
+
+* Let's add it to our horse class.

@@ -32,6 +32,7 @@ pandoc-latex-fontsize:
 
 # Different interfaces
 
+```{.python .listing}
 class Turtle:
   def __init__(self):
     self.x = 0
@@ -45,9 +46,11 @@ class Hare:
 
   def run(self):
     self.x += 5
+```
 
 # Same interface
 
+```{.python .listing}
 class Turtle:
   def __init__(self):
     self.x = 0
@@ -61,6 +64,7 @@ class Hare:
 
   def move(self):
     self.x += 5
+```
 
 # Keeping things consistent
 
@@ -138,7 +142,7 @@ class Pen:
 
 # Generic tool project
 
-* Link
+https://github.com/patrickmineault/programming-course/tree/master/class13-14/tool
 
 # Tools you will make
 
@@ -146,3 +150,7 @@ class Pen:
 * Rectangle tool (on mouse down, remember position; on mouse up, draw)
 * Spray can tool (on mouse drag, draw a circle at a random position close to the mouse cursor)
 * Airbrush (on mouse drag, draw a smoothed circle)
+
+# End point
+
+5-tool paint program
