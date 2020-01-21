@@ -151,7 +151,7 @@ for obj in objects:
 # Let's use a simple class I made
 
 * Sprite sheet animation
-* Link
+* [Sprite shee]
 * For now let's copy paste at the top of our main file.
 
 # Read the docs
