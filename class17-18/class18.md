@@ -45,6 +45,6 @@ print(a['ghij'])
 # Project: modify the visualization in some way
 
 * Visualize the number of snow days with actual snow particles
-* Download and visualize future climate data
+* Download and visualize future climate data: https://climateatlas.ca/map/canada/plus30_2030_85#grid=300&z=5&lat=51&lng=-82.53
 * Display an iconic photo for each decade
 * Display all of the current data simultaneously, with labels and colors
