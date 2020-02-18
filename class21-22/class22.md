@@ -39,7 +39,7 @@ def the_answer_to_life_the_universe_and_everything():
 
 ```{.python .listing}
 def draw_regular_polygon(nsides, r):
-  # Draws a star from lines.
+  # Draws a polygon with lines.
   for i in range(nsides + 1):
     line(r * cos(i / float(nsides) * 2 * PI),
          r * sin(i / float(nsides) * 2 * PI),
@@ -98,7 +98,7 @@ def fun_caller():
 
 # Illustration with a debugger
 
-![Stepping in a debugger](vscode-debuggin.png)
+![Stepping in a debugger 80%](vscode-debuggin.png)
 
 # Functions or classes?
 
@@ -128,6 +128,19 @@ def print_happy_birthday():
 
 print_happy_birthday()
 print_cake(prepare_cake(3, 35))
+```
+
+# Expected output
+
+```
+ iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+-------------------------------------
+|                                   |
+-------------------------------------
+|                                   |
+-------------------------------------
+|                                   |
+-------------------------------------
 ```
 
 # Algorithms

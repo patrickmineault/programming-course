@@ -27,7 +27,6 @@ order to use the function, we have to  *call it*, for example:
 result = my_function("hello ", "world")
 ```
 
----
 
 ---
 # Functions without arguments
@@ -46,7 +45,7 @@ def the_answer_to_life_the_universe_and_everything():
 
 ```python
 def draw_regular_polygon(nsides, r):
-  # Draws a star from lines.
+  # Draws a polygon with lines.
   for i in range(nsides + 1):
     line(r * cos(i / float(nsides) * 2 * PI),
          r * sin(i / float(nsides) * 2 * PI),
@@ -111,6 +110,8 @@ def fun_caller():
 ---
 # Illustration with a debugger
 
+![width:850px](vscode-debuggin.png)
+
 ---
 # Functions or classes?
 
@@ -144,20 +145,59 @@ print_cake(prepare_cake(3, 35))
 ```
 
 ---
-# Algorithms
+# Expected output
 
-* (algorithm is the name of a guy)
-* recipe for accomplishing a task (computational or otherwise)
-* the earliest algorithms predate computers
+```
+ iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+-------------------------------------
+|                                   |
+-------------------------------------
+|                                   |
+-------------------------------------
+|                                   |
+-------------------------------------
+```
 
 ---
-# The sieve of Erasthotenes
+# Algorithms
 
-* The most famous ancient algorithm and arguably the oldest
+* Recipe for accomplishing a computational task
+* The earliest algorithms predate computers
+
+---
+# Muhammad ibn Musa al-Khwarizmi
+
+* Persian mathematician (780-850) who first demonstrated quadratic equations
+* In the 12th centery, his book on numerals introduced the Western world to Hindu-Arabic numbers.
+
+---
+# Checking whether an integer is prime
+
+* A number `N` is prime if the only integers that divide `N` are 1 and `N`.
+* To check whether `N` is prime, we can check each number individually from 2 to sqrt(N) to see whether they divide `N`.
+
+---
+# Checking the intuition behind the algorithm
+
+Let's try the number 53.
+
+---
+# Writing some pseudocode
+
+```{.pseudocode}
+function is_prime(N : integer) -> Boolean
+  for x from 2..floor(sqrt(N))
+    if x divides N then return True
+  return False
+```
+
+---
+# The sieve of Eratosthenes
+
+* One of the most famous ancient algorithms
 * Algorithm to find prime numbers
-* A prime number is a number that can't be divided by integer except 1 and itself
-* E.g. 7 is prime, but 9 is not because 9 = 3 * 3
+* https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 
-
-* Binary-to-decimal converter and back
+---
+# Coding up the sieve
 
