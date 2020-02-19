@@ -22,7 +22,7 @@ def split_slides(text):
 
 def main():
     # Get text of slide deck.
-    f = open('../class22.md', 'r')
+    f = open('class22.md', 'r')
     slide_text = f.read()
     f.close()
 
@@ -39,7 +39,7 @@ def main():
     slides_joined = HEADER + slides_joined
 
     # Write to disk.
-    f = open('../class22-out.md', 'w')
+    f = open('class22-out.md', 'w')
     f.write(slides_joined)
     f.close()
 
