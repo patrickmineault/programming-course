@@ -1,8 +1,8 @@
 # A particle system: bonus assignment
 
-This is an extra make-up assignment for exam 2. This assignment is due Monday April 2nd, 2020 before 9AM. Your will be granted the max your exam 2 score and this extra assignment as your revised total for exam 2. Submit your answers for each question on Github and send me the link for the repo. Good luck.
+This is an extra make-up assignment for exam 2. This assignment is due Monday ~~April 2nd~~ March 2nd, 2020 before 9AM. Your will be granted the max your exam 2 score and this extra assignment as your revised total for exam 2. Submit your answers for each question on Github and send me the link for the repo. Good luck.
 
-Let's make a particle system in Processing. 
+Let's make a particle system in Processing.
 
 ## Question 1 (4/10 points)
 
@@ -21,7 +21,7 @@ class Particle:
         # Should move the particle according to its velocity.
         # Should wrap around the screen if off limits.
         pass
-    
+
     def draw_it(self):
         # Should draw a circle where the particle is.
         pass
